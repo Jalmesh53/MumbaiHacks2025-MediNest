@@ -1,7 +1,7 @@
 // LLM Service for generating personalized insurance recommendations
 // This uses Google's Gemini API with a robust local fallback
 
-const GEMINI_API_KEY = 'AIzaSyA38YTiJOhigqKngnhq5yckkKaAjyMZTyo' // Replace with your actual API key
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || ''
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent'
 
 export const generateRecommendations = async (userProfile) => {

@@ -1,3 +1,4 @@
+
 # MediNest 🏥✨
 
 > **Personalized AI-driven health insurance recommendations based on your true medical profile.**
@@ -98,3 +99,4 @@ To run the AI features, you need a Gemini API Key.
 
 ---
 *Built for MumbaiHack2025.*
+
